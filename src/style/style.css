@@ -41,10 +41,14 @@ a{
     justify-content: space-between;
 }
 
-.header__nav ul li a{
+.header__btn{
     color: #2b2d42;
     font-weight: 500;
     font-size: 0.8rem;
+}
+
+.header__btn__active{
+    color: rgb(247, 199, 67);
 }
 
 @media (min-width: 769px){
@@ -52,6 +56,7 @@ a{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        align-items: baseline;
     }
 
     .header__nav{
@@ -62,8 +67,14 @@ a{
         gap: 20px;
     }
 
-    .header__nav ul li a{ 
+    .header__btn{ 
         font-size: 1.5rem;
+        transition: 240ms ease-in;
+    }
+
+    .header__btn:hover{
+        color: rgb(255, 187, 0);
+        display: inline-block;
     }
 }
 
