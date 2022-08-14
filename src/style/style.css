@@ -419,6 +419,7 @@ a{
 }
 
 .contacto__form .btn{
+    background-color: white;
     width: 50%;
     padding: 8px;
 }
