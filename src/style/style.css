@@ -129,6 +129,10 @@ a{
     padding: 13px;
 }
 
+.contenedor__carrusel{
+    max-width: 1032px;
+}
+
 .caja__img{
     width: 80%;
 }
@@ -143,7 +147,7 @@ a{
     text-align: justify;
 }
 
-.container-fluid{
+.container{
     background-color: #edf2f4;
     align-items: center;
     width: 80%;
