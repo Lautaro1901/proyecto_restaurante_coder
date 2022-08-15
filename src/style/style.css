@@ -156,7 +156,7 @@ a{
 
 @media (min-width: 769px){
     .caja__img{
-        width: 40%;
+        max-width: 1032px;
     }
 
     .caja__titulo{
