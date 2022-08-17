@@ -1,433 +1,58 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Fira Sans', sans-serif;
-}
 
-ul{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-/* ---- NAVBAR ---- */
-.header{
+nav{
     background-color: #edf2f4;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid black;
 }
 
-.header__title{
-    color: #2b2d42;
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-.header__nav{
-    margin-top: 15px;
-}
-
-.header__nav ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-.header__nav ul li a{
-    color: #2b2d42;
-    font-weight: 500;
-    font-size: 0.8rem;
-}
-
-@media (min-width: 769px){
-    .header{
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .header__nav{
-        margin-top: unset;
-    }
-
-    .header__nav ul{
-        gap: 20px;
-    }
-
-    .header__nav ul li a{ 
-        font-size: 1.5rem;
-    }
-}
-
-/* ---- HERO ---- */
-.hero{
-    background: black url("../images/fondo2.jpg") center / cover no-repeat fixed;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 25px;
-}
-
-.hero__text{
-    text-align: center;
-    max-width: 80%;
-    color: white;
-    background-color: #8d99ae;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-@media (min-width: 769px){
-    .hero__text{
-        font-size: 2rem;
-    }
-}
-
-/* ---- Menu Principal INDEX ---- */
-
-.contenedor-caja{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-}
-
-.caja{
-    background-color: #edf2f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    padding: 13px;
-}
-
-.caja__img{
-    width: 80%;
-}
-
-.caja__titulo{
-    font-weight: 700;
-}
-
-.caja__text{
-    font-weight: 200;
-    padding: 20px;
-    text-align: justify;
-}
-
-@media (min-width: 769px){
-    .caja__img{
-        width: 40%;
-    }
-
-    .caja__titulo{
-        font-size: 2rem;  
-    }
-
-    .caja__text{
-        font-size: 1.5rem;
-    }
-}
-
-/*  ---- FOOTER ---- */
-.footer{
-    background-color: #2b2d42;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    height: 120px;
-    margin-top: 20px;
-}
-.footer__list ul{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    gap: 20px;
-}
-
-.footer p{
-    color: burlywood;
-    font-size: 0.8rem;
-}
-
-
-/* ---- PAGE MENU ---- */
-
-.contenedor{
-    text-align: center;
-}
-.contenedor__tarjetas{
-    background-color: #8d99ae;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
-    border: 2px solid black
-}
-.contenedor h3{
-    color: Green;
-    padding: 20px;
-    font-size: 2.5rem;
-}
-
-.tarjeta{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.tarjeta__titulo{
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding: 10px;
-}
-
-.tarjeta__txt{
-    text-align: center;
-    padding: 10px;
-}
-
-.tarjeta__img{
-    width: 80%;
-    margin: 13px;
-}
-
-@media (min-width: 769px){
-    .contenedor__tarjetas{
-        grid-template-columns: repeat(2, 1fr)
-    }
-}
-
-@media (min-width: 1200px){
-    .contenedor__tarjetas{
-        grid-template-columns: repeat(4, 1fr)
-    }
-}
-
-/* ------ PAGE SOBRE NOSOTROS ------ */
-
-.contenedor__nosotros{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.nosotros__img{
-    width: 90%;
-    text-align: center;
-}
-
-.nosotros__titulo{
-    margin: 30px;
-    text-align: center;
-    font-size: 2.0rem;
-    font-weight: 600;
-}
-.nosotros__txt{
-    margin: 30px;
-    text-align: center;
-    font-size: 1.5rem;
+h2{
     font-weight: 400;
+    font-size: 1.4rem;
 }
 
-@media (min-width: 769px){
-    .contenedor__nosotros{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .nosotros__img{
-        margin: 10px;
-    }
+p{
+    font-weight: 300;
 }
 
-/*---- PAGE EL EQUIPO -----*/
-.grid-equipo{
-    background-color: #edf2f4;
-    display: grid;
-    grid-template: 
-    "imagenes nombres" min-content
-    "texto texto" 20%
-    ;
-    grid-gap: 5px;
+/* ---- nav + hero ---- */
+.nav-link{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
 }
 
-.contenedor__equipo{
-    display: flex;
-    flex-direction: column;
-    grid-area: imagenes;
+.hero{
+    background: url('../images/fondo2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
-.equipo__img{
-    width: 80%;
-    margin: 10px;
+.hero .container{
+    height: 50vh;
+}
+
+.text-light{
+    background-color: #8d99ae;
     border-radius: 10px;
 }
 
-.equipo__nombres{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    grid-area: nombres;
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding-right: 10px;
+/* ---- main ----- */
+
+
+.contenedor__carrusel{
+    max-width: 1032px;
+    margin: 0 auto;
 }
 
-.equipo__text{
-    text-align: center;
-    grid-area: texto;
-    margin-bottom: 5px;
-    margin: 5px;
+
+/* ---- footer ---- */
+footer{
+    background-color: #2b2d42;
+}
+.footer__logo{
+    height: 80px;
 }
 
-@media (min-width: 426px){
-    .grid-equipo{
-        grid-template: 
-        "imagenes" min-content
-        "nombres" min-content
-        "texto" 20%;
-    }
-
-    .contenedor__equipo{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .equipo__nombres{
-        flex-direction: row;
-        justify-content: space-around
-    }
-
-    .equipo__nombres p{
-        width: 50%;
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
-
-    .equipo__img{
-        width: 30%;
-    }
-
-    .equipo__text{
-        font-size: 1.3rem;
-    }
-}
-
-/* ----- PAGE CONTACTO ----- */
-.contacto{ 
-    background-color: #edf2f4;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.contacto h2{
-    margin: 20px;
-    text-align: center;
-    font-size: 2rem;
-}
-
-.contacto h3{
-    margin: 20px;
-    text-align: center;
-    font-size: 1.6rem;
-}
-
-.contacto__form {
-    background-color: #8d99ae;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 90%;
-    margin: 10px auto;
-    padding: 10px;
-}
-
-.contacto__form input{
-    width: 100%;
-    margin: 5px auto;
-    padding: 13px;
-}
-
-.contacto__form textarea{
-    width: 100%;
-    margin: 5px auto;
-}
-
-.contacto__form .btn{
-    width: 50%;
-    padding: 8px;
-}
-
-.contacto__ubication{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.contacto__redes ul{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    width: 300px;
-}
-
-.redlink{
-    color: rgb(27, 49, 175);
-    font-size: 40px;
-}
-
-.contacto__mapa{
-    width: 90%;
-    height: 90%;
-    margin: 10px auto;
-}
-@media (min-width: 769px){
-    .contacto{
-        grid-template: 
-        "titulo titulo" min-content
-        "subtitulo subtitulo" min-content
-        "form form" min-content
-        "ubicacion info" 600px
-        ;
-        grid-gap: 20px;
-    }
-    
-    .contacto__form{
-        background-color: #8d99ae;
-        grid-area: form;
-        width: 80%;
-        margin-bottom: 10px;
-    }
-
-    .contacto__ubication{
-        grid-area: info;
-        margin-bottom: 10px;
-    }
-
-    .contacto__mapa{
-        grid-area: ubicacion;
-        width: 100%;
-        margin-left: 15px;
-    }
-
-    .contacto__titulo{
-        grid-area: titulo;
-    }
-    
-    .contacto__subtitulo{
-        grid-area: subtitulo;
-    }
+.footer__icon{
+    font-size: 24px;
+    color: white;
 }
