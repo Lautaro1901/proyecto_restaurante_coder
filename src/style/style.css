@@ -30,7 +30,7 @@ p{
 }
 
 .hero .container{
-    height: 50vh;
+    height: 70vh;
 }
 
 .text-light{
@@ -39,13 +39,10 @@ p{
 }
 
 /* ---- main ----- */
-
-
 .contenedor__carrusel{
     max-width: 1032px;
     margin: 0 auto;
 }
-
 
 /* ---- footer ---- */
 footer{
@@ -58,11 +55,4 @@ footer{
 .footer__icon{
     font-size: 24px;
     color: white;
-}
-
-
-/* --- page menu --- */
-
-.menu__img{
-    width: 50%;
 }

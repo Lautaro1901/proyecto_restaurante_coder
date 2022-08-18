@@ -4,58 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="../style/hover-min.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="../style/style.css">
-    <title>Merequetengue - Sobre Nosotros</title>
+    <title>LeCoin - Sobre Nosotros</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header__title">Merequetengue Resto</h1>
-        <nav class="header__nav">
-            <ul>
-                <li><a href="../../index.html">Inicio</a></li>
-                <li><a href="./menú.html">Menu</a></li>
-                <li><a href="./sobre nosotros.html">Sobre Nosotros</a></li>
-                <li><a href="./el equipo.html">El equipo</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html"><img src="../images/LOGO.png" alt="logo" width="100vh"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-4">
+                        <li class="nav-item"><a class="nav-link hvr-grow hvr-underline-reveal" href="../../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link hvr-grow hvr-underline-reveal" href="./menú.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link hvr-grow hvr-underline-reveal" href="./sobre nosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link hvr-grow hvr-underline-reveal" href="./el equipo.html">El Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link hvr-grow hvr-underline-reveal" href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header>
 
-    <section class="hero">
-        <div class="hero__text">
-            <h2>Sobre Nosotros</h2>
+    <section class="hero" >
+        <div class="container">
+            <div class="container d-flex flex-column text-center justify-content-center">
+                <h1 class="text-light">Sobre Nosotros</h1>
+            </div>
         </div>
     </section>
 
     <main>
-        <div class="contenedor__nosotros">
-            <img src="../images/slide.jpg" alt="Carne" class="nosotros__img">
-            <div class="nosotros__caja">
-                <h3 class="nosotros__titulo">Porque Elegirnos</h3>
-                <p class="nosotros__txt">La comida regional se ha convertido en la cocina favorita de las personas de nuestro pais. Nos enorgullecemos de una variedad de nuestros platos auténticos y la más alta calidad de nuestra comida.</p>
+        <section class="container-fluid text-center">
+            <div class="row d-flex justify-content-center align-items-center mt-4">
+                <div class="col-lg-5">
+                    <img src="../images/slide.jpg" alt="Carne" class="img-fluid" mb-3">
+                </div>   
+                <div class="col-lg-6">
+                    <h3>Porque Elegirnos <i class="bi bi-question-circle"></i></h3>
+                    <p>La comida regional se ha convertido en la cocina favorita de las personas de nuestro pais. Nos enorgullecemos de una variedad de nuestros platos auténticos y la más alta calidad de nuestra comida.</p>
 
-                <h3 class="nosotros__titulo">Servicio Profesional</h3>
-                <p class="nosotros__txt">Nuestro personal está formado por profesionales experimentados que entienden cómo prepararse y servir deliciosas comidas y bebidas en un ambiente limpio y cómodo.
-                </p>
+                    <h3>Servicio Profesional <i class="bi bi-award"></i></h3>
+                    <p>Nuestro personal está formado por profesionales experimentados que entienden cómo prepararse y servir deliciosas comidas y bebidas en un ambiente limpio y cómodo.</p>
+                </div>    
             </div>
-        </div>
+        </section>
     </main>
 
-        <footer class="footer">
-            <a href="./index.html">Merequetengue Resto</a>
-            <div class="footer__list">
-                <ul>
-                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+    <div class="container-fluid p-0">
+        <footer class="d-flex flex-column flex-lg-row justify-content-between align-items-center border-top p-4 mt-3">
+            <a href="./index.html" class="logo__link"><img src="../images/LOGO2.png" alt="logo2" class="footer__logo"></a>
+                <ul class="navbar-nav d-flex flex-row justify-content-center flex-wrap gap-3 mt-3">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./src/pages/menú.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./src/pages/sobre nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./src/pages/el equipo.html">El Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./src/pages/contacto.html">Contacto</a></li>
                 </ul>
-            </div>
-            <p>Seguinos en nuestras redes sociales sociales</p>
+            <ul class="nav justify-content-end list-unstyled d-flex mt-2">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram footer__icon"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter footer__icon"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp footer__icon"></i></a></li>
+            </ul>
         </footer>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </body>
 </html>
