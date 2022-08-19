@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Fira Sans', sans-serif;
 }
 nav{
     background-color: #edf2f4;
@@ -55,4 +56,14 @@ footer{
 .footer__icon{
     font-size: 24px;
     color: white;
+}
+
+/* ---- Page Equipo ---- */
+.equipo__icon{
+    font-size: 30px;
+    color: black;
+}
+
+.equipo__puesto{
+    color: cadetblue;
 }
