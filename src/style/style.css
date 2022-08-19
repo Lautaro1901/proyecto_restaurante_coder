@@ -6,6 +6,12 @@
 nav{
     background-color: #edf2f4;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
 
 h2 h3{
     font-weight: 400;
@@ -67,3 +73,17 @@ footer{
 .equipo__puesto{
     color: cadetblue;
 }
+
+.input-group input:focus, .input-group textarea:focus{
+    box-shadow: none;
+}
+
+/* ---- contacto ---- */
+.contacto__icono{
+    font-size: 20px;
+}
+
+.contacto__lista{
+    gap: 30px;
+}
+
