@@ -44,25 +44,25 @@
 
     <main>
         <div class="container d-flex flex-column  justify-content-center mt-3">   
-            <section class="column justify-content-center">
-                    <div class="text-center m-3">
+            <section class="card column justify-content-center">
+                    <div class="text-center">
                         <img src="./src/images/tablademadera.jpg" class="img-fluid" alt="tabla de madera"> 
-                        <h2>Quienes somos</h2>
-                        <p>Tres chefs se convirtieron en socios y empresarios para fundar “el restaurante al que nos gustaría ir a comer”. No fue un inicio fácil ya que comenzó con algunas limitaciones, entre ellas que no disponían de mucho para alquilar un local. Encontraron un espacio en el Barrio de Las Letras que, a pesar de necesitar mucho trabajo, podía encajar con la idea que tenían en mente.</p>
+                        <h2 class="card__title mt-2">QUIENES SOMOS</h2>
+                        <p class="card__text">Tres chefs se convirtieron en socios y empresarios para fundar “el restaurante al que nos gustaría ir a comer”. No fue un inicio fácil ya que comenzó con algunas limitaciones, entre ellas que no disponían de mucho para alquilar un local. Encontraron un espacio en el Barrio de Las Letras que, a pesar de necesitar mucho trabajo, podía encajar con la idea que tenían en mente.</p>
                     </div>
             </section>
 
-            <section class="container d-flex flex-column  justify-content-center mt-3">
+            <section class="card container d-flex flex-column  justify-content-center mt-3">
                 <div class="text-center">
                     <img src="./src/images/comidamesa2l.jpg" class="img-fluid" alt="Comida en platos">
-                    <h2>Nuestra idea</h2>
-                    <p>Nuestra Cocina es una prolongacion de nuestra manera de entender la vida, exprimiendo la localizacion y la tradicion como punto de partida para crear nuestro propio lenguaje culinario..
+                    <h2 class="card__title mt-2">NUESTRA IDEA</h2>
+                    <p class="card__text">Nuestra Cocina es una prolongacion de nuestra manera de entender la vida, exprimiendo la localizacion y la tradicion como punto de partida para crear nuestro propio lenguaje culinario..
 
                     Ahondamos en nuestro legado gastronomico, las raices, la estacionalidad y la integridad del producto para evocar al recuerdo a traves del paladar, aportando un elemento de sorpresa y modernidad. El entorno y nuestro sello personal se vera reflejado en la experiencia sensorial y gastronomica que esperamos que el cliente disfrute en nuestra Casa.</p>
                 </div>
             </section>
 
-            <div class="container text-center mt-3">   
+            <div class="card container text-center mt-3">   
                 <section class="contenedor__carrusel">
                     <div id="id__carrusel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -75,25 +75,25 @@
                             <div class="carousel-item active" data-bs-interval="10000">
                                 <img src="./src/images/salon-principal.jpg" class="d-block w-100" alt="salon principal">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h3>Salon Principal</h3>
+                                    <h3 class="carrusel__text">Salon Principal</h3>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
                                 <img src="./src/images/salon-principal-2.jpg" class="d-block w-100" alt="salon principal 2">
                                     <div class="carousel-caption d-none d-md-block">
-                                    <h3>Salon Principal con vista a terraza</h3>
+                                    <h3 class="carrusel__text">Salon Principal con vista a terraza</h3>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./src/images/terraza-sector.jpg" class="d-block w-100" alt="terraza">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h3>Sector Terraza</h3>
+                                    <h3 class="carrusel__text">Sector Terraza</h3>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./src/images/terraza-sector2.jpg" class="d-block w-100" alt="terraza">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h3>Terraza con vista a la calle</h3>
+                                    <h3 class="carrusel__text">Terraza con vista a la calle</h3>
                                 </div>
                             </div>
                         </div>
@@ -106,16 +106,15 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <h2>Nuestro restaurante</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ex omnis eaque odio maxime reiciendis facere voluptatibus. Veniam, corrupti ea.</p>
+                    <h2 class="card__title mt-2">NUESTRO RESTAURANTE</h2>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ex omnis eaque odio maxime reiciendis facere voluptatibus. Veniam, corrupti ea.</p>
             </section>
         </div>
-                
-            <section class="container d-flex flex-column justify-content-center mt-3 p-2">
+            <section class="card container d-flex flex-column justify-content-center mt-3 p-2">
                 <div class="text-center">
                     <img src="./src/images/equipo.jpg" class="img-fluid" alt="Personal de cocina">
-                    <h2>El equipo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore.</p>
+                    <h2 class="card__title mt-2">EL EQUIPO</h2>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore.</p>
                 </div>
             </section>
         </div>
@@ -123,7 +122,7 @@
 
 
     <div class="container-fluid p-0">
-        <footer class="d-flex flex-column flex-lg-row justify-content-between align-items-center border-top p-4 mt-3">
+        <footer class="d-flex flex-column flex-lg-row justify-content-between align-items-center border-top p-4 mt-3 footer__color">
             <a href="./index.html" class="logo__link"><img src="./src/images/LOGO2.png" alt="logo2" class="footer__logo"></a>
                 <ul class="navbar-nav d-flex flex-row justify-content-center flex-wrap gap-3 mt-3">
                     <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
@@ -140,6 +139,6 @@
         </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

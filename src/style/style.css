@@ -1,3 +1,5 @@
+/* ---- Reseteo + generales ---- */
+
 *{
     margin: 0;
     padding: 0;
@@ -13,14 +15,11 @@ ul{
     list-style: none;
 }
 
-h2 h3{
-    font-weight: 400;
-    font-size: 1.4rem;
-}
-
 p{
     font-weight: 300;
 }
+
+/* =============================== */
 
 /* ---- nav + hero ---- */
 .nav-link{
@@ -28,6 +27,11 @@ p{
     font-weight: 400;
     color: white;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
 
 .hero{
     background: url('../images/fondo2.jpg');
@@ -45,14 +49,43 @@ p{
     border-radius: 10px;
 }
 
+/* ============================================ */
+
 /* ---- main ----- */
+
+body{
+    background-image: url(../images/fondo.png);
+}
 .contenedor__carrusel{
     max-width: 1032px;
     margin: 0 auto;
 }
 
+.card{
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #818d92f6;
+}
+
+.card__title{
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+.card__text{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.carrusel__text{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+/* ================================= */
+
 /* ---- footer ---- */
-footer{
+.footer__color{
     background-color: #2b2d42;
 }
 .footer__logo{
@@ -64,26 +97,71 @@ footer{
     color: white;
 }
 
+/* ---- Page Menu ---- */
+.contenedor__titulo{
+    color: rgb(243, 157, 28);
+    margin: 10px;
+}
+
+/* ============================== */
+
+/* ----- Sobre nosotros ---- */
+.nosotros__titulo{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(228, 98, 51);
+}
+
+.nosotros__text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: orange;
+}
+/* ============================== */
+
 /* ---- Page Equipo ---- */
 .equipo__icon{
     font-size: 30px;
-    color: black;
+    color: white;
+}
+
+.equipo__nombre{
+    font-weight: 900;
+    color: rgb(228, 98, 51);
 }
 
 .equipo__puesto{
-    color: cadetblue;
+    font-weight: 600;
+    color: rgb(243, 198, 140);
 }
 
-.input-group input:focus, .input-group textarea:focus{
-    box-shadow: none;
+.equipo__info{
+    font-weight: 400;
+    color: orange;
 }
 
 /* ---- contacto ---- */
+
+.contacto__titulo{
+    color: rgb(228, 98, 51);
+}
+
+.contacto__subtitulo{
+    color: rgb(243, 198, 140); ;
+}
+
+.contacto__text{
+    color: orange;
+}
 .contacto__icono{
-    font-size: 20px;
+    font-size: 17px;
+    color: white;
 }
 
 .contacto__lista{
     gap: 30px;
 }
 
+.input-group input:focus, .input-group textarea:focus{
+    box-shadow: none;
+}
