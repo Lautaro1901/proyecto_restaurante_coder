@@ -55,10 +55,6 @@ ul{
 body{
     background-image: url(../images/fondo.png);
 }
-.contenedor__carrusel{
-    max-width: 1032px;
-    margin: 0 auto;
-}
 
 .card{
     border: 2px solid white;
@@ -75,6 +71,12 @@ body{
     font-weight: 400;
     font-size: 1.2rem;
 }
+
+.contenedor__carrusel{
+    max-width: 1032px;
+    margin: 0 auto;
+}
+
 
 .carrusel__text{
     font-weight: 900;
@@ -133,12 +135,13 @@ body{
     font-weight: 600;
     color: rgb(243, 198, 140);
 }
-/* ============================== */
 
 .equipo__info{
     font-weight: 400;
     color: orange;
 }
+
+/* ============================== */
 
 /* ---- contacto ---- */
 
