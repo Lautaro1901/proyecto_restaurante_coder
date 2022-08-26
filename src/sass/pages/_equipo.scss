@@ -1,0 +1,18 @@
+.equipo{
+    &__icon{
+        font-size: 30px;
+        color: $color-terciario;
+    }
+    &__nombre{
+    font-weight: 900;
+    color: $color-titulos;
+    }
+    &__puesto{
+        font-weight: 600;
+        color: $color-subtitulo;
+    }
+    &__info{
+        font-weight: 400;
+        color: $color-texto; 
+    }
+} 

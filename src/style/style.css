@@ -1,170 +1,140 @@
-/* ---- Reseteo + generales ---- */
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Fira Sans', sans-serif;
-} 
-
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* =============================== */
-
-/* ---- nav + hero ---- */
-
-.navbar-light{
-    background-color: #edf2f4;
+a {
+  text-decoration: none;
 }
 
-.nav-link{
-    font-size: 1rem;
-    font-weight: 400;
-    color: white;
+ul {
+  list-style: none;
+}
+
+body {
+  background-image: url(../images/fondo.png);
+}
+
+nav {
+  background-color: #edf2f4;
+}
+
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+  color: black;
 }
 
-
-.hero{
-    background: url('../images/fondo2.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+.hero {
+  background: url("../images/fondo2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-.hero .container{
-    height: 70vh;
+.hero .container {
+  height: 70vh;
 }
 
-.text-light{
-    background-color: #8d99ae;
-    border-radius: 10px;
+.text-light {
+  background-color: #8d99ae;
+  border-radius: 10px;
 }
 
-/* ============================================ */
-
-/* ---- main ----- */
-
-body{
-    background-image: url(../images/fondo.png);
+.footer__color {
+  background-color: #2b2d42;
+}
+.footer__logo {
+  height: 80px;
+}
+.footer__icon {
+  font-size: 24px;
+  color: white;
 }
 
-.card{
-    border: 2px solid white;
-    padding: 10px;
-    background-color: #818d92f6;
+.card {
+  border: 2px solid white;
+  padding: 10px;
+  background-color: #8d99ae;
+}
+.card__title {
+  font-weight: 900;
+  font-size: 2.2rem;
+}
+.card__ {
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
-.card__title{
-    font-weight: 900;
-    font-size: 2.2rem;
+.contenedor__titulo {
+  color: rgb(243, 198, 140);
+  margin: 10px;
 }
 
-.card__text{
-    font-weight: 400;
-    font-size: 1.2rem;
+.nosotros__titulo {
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(228, 98, 51);
+}
+.nosotros__text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: orange;
 }
 
-.contenedor__carrusel{
-    max-width: 1032px;
-    margin: 0 auto;
+.equipo__icon {
+  font-size: 30px;
+  color: white;
+}
+.equipo__nombre {
+  font-weight: 900;
+  color: rgb(228, 98, 51);
+}
+.equipo__puesto {
+  font-weight: 600;
+  color: rgb(243, 198, 140);
+}
+.equipo__info {
+  font-weight: 400;
+  color: orange;
 }
 
-
-.carrusel__text{
-    font-weight: 900;
-    font-size: 2rem;
+.contacto__titulo {
+  color: rgb(228, 98, 51);
+}
+.contacto__subtitulo {
+  color: rgb(243, 198, 140);
+}
+.contacto__text {
+  color: orange;
+}
+.contacto__icono {
+  font-size: 17px;
+  color: white;
+}
+.contacto__lista {
+  gap: 30px;
 }
 
-/* ================================= */
-
-/* ---- footer ---- */
-.footer__color{
-    background-color: #2b2d42;
-}
-.footer__logo{
-    height: 80px;
+.imput-group input:focus, .imput-group textarea:focus {
+  box-shadow: none;
 }
 
-.footer__icon{
-    font-size: 24px;
-    color: white;
+.carrusel__contenedor {
+  max-width: 1032px;
+  margin: 0 auto;
+}
+.carrusel__text {
+  font-weight: 900;
+  font-size: 2rem;
 }
 
-/* ---- Page Menu ---- */
-.contenedor__titulo{
-    color: rgb(243, 157, 28);
-    margin: 10px;
-}
-
-/* ============================== */
-
-/* ----- Sobre nosotros ---- */
-.nosotros__titulo{
-    font-weight: bold;
-    font-size: 2rem;
-    color: rgb(228, 98, 51);
-}
-
-.nosotros__text{
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: orange;
-}
-/* ============================== */
-
-/* ---- Page Equipo ---- */
-.equipo__icon{
-    font-size: 30px;
-    color: white;
-}
-
-.equipo__nombre{
-    font-weight: 900;
-    color: rgb(228, 98, 51);
-}
-
-.equipo__puesto{
-    font-weight: 600;
-    color: rgb(243, 198, 140);
-}
-
-.equipo__info{
-    font-weight: 400;
-    color: orange;
-}
-
-/* ============================== */
-
-/* ---- contacto ---- */
-
-.contacto__titulo{
-    color: rgb(228, 98, 51);
-}
-
-.contacto__subtitulo{
-    color: rgb(243, 198, 140); ;
-}
-
-.contacto__text{
-    color: orange;
-}
-.contacto__icono{
-    font-size: 17px;
-    color: white;
-}
-
-.contacto__lista{
-    gap: 30px;
-}
-
-.input-group input:focus, .input-group textarea:focus{
-    box-shadow: none;
-}
+/*# sourceMappingURL=style.css.map */

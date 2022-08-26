@@ -1,0 +1,21 @@
+.contacto{
+    &__titulo{
+        color: $color-titulos;
+    }
+    &__subtitulo{
+        color: $color-subtitulo;
+    }
+    &__text{
+        color: $color-texto;
+    }
+    &__icono{
+        font-size: 17px;
+        color: $color-terciario;
+    }
+    &__lista{
+        gap: 30px;
+    }
+}
+
+
+

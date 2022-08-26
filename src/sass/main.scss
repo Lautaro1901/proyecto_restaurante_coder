@@ -1,12 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Fira Sans', sans-serif;
-} 
-
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
+@import "./utils/variables";
+@import "./base/reset";
+@import "./base/tipography";
+@import "./layout/navigation";
+@import "./components/hero";
+@import "./layout/footer";
+@import "./pages/index";
+@import "./pages/menu";
+@import "./pages/sobrenosotros";
+@import "./pages/equipo";
+@import "./pages/contacto";
+@import "./components/buttons";
+@import "./components/carousel";

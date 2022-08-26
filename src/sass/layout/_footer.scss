@@ -1,0 +1,13 @@
+.footer{
+    &__color{
+        background-color: $color-footer;
+    }
+    &__logo{
+        height: 80px;
+    }
+    &__icon{
+        font-size: 24px;
+        color: $color-terciario;
+    }
+}
+
