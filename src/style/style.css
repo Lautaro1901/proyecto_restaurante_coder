@@ -137,6 +137,20 @@ nav {
   background-color: rgba(199, 205, 216, 0.8156862745);
 }
 
+.boton__form {
+  width: 40%;
+  height: 10% px;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: rgba(199, 205, 216, 0.8156862745);
+  border: none;
+}
+.boton__form:hover {
+  background-color: rgba(199, 205, 216, 0.8156862745);
+  color: black;
+}
+
 .carrusel__contenedor {
   max-width: 1032px;
   margin: 0 auto;

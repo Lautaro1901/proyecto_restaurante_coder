@@ -1,11 +1,3 @@
-.imput-group{
-    & input,& textarea{
-        &:focus{
-            box-shadow: none;
-        }
-    }
-}
-
 .boton__index{
     & input{
         width: max-content;
@@ -16,3 +8,18 @@
         background-color: $color-card-hero;
     }
 }
+
+.boton__form{
+    width: 40%;
+    height: 10%px;
+    border-radius: 10px;
+    padding: 10px;
+    color: $color-secundario;
+    background-color: $color-card-hero;
+    border: none;
+    &:hover{
+        background-color: $color-card-hero;
+        color: $color-secundario;
+    }
+}
+

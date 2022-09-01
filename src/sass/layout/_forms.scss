@@ -1,0 +1,7 @@
+.imput-group{
+    & input,& textarea{
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
