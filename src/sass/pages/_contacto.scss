@@ -1,16 +1,16 @@
 .contacto{
     &__titulo{
-        color: $color-titulos;
+        color: $color-secundario;
     }
     &__subtitulo{
-        color: $color-subtitulo;
+        color: $color-footer;
     }
     &__text{
-        color: $color-texto;
+        color: $color-secundario;
     }
     &__icono{
-        font-size: 17px;
-        color: $color-terciario;
+        font-size: 20px;
+        color: $color-secundario;
     }
     &__lista{
         gap: 30px;

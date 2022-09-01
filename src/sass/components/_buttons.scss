@@ -5,3 +5,14 @@
         }
     }
 }
+
+.boton__index{
+    & input{
+        width: max-content;
+        height: 60px;
+        border-radius: 10px;
+        padding: 10px;
+        color: $color-secundario;
+        background-color: $color-card-hero;
+    }
+}
