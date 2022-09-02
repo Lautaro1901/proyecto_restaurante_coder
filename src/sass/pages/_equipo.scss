@@ -4,15 +4,15 @@
         color:map-get($colores, "color-secundario" );
     }
     &__nombre{
-    font-weight: 900;
+        @include texto(2.2rem,900);
     color: map-get($colores, "color-secundario");
     }
     &__puesto{
-        font-weight: 600;
+        @include texto(1.8rem,600);
         color: map-get($colores,"color-footer");
     }
     &__info{
-        font-weight: 400;
+        @include texto(1.2rem,400);
         color: map-get($colores, "color-secundario");
     }
 } 

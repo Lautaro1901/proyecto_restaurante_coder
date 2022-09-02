@@ -45,7 +45,7 @@ nav {
 }
 
 .text-light {
-  background-color: rgba(199, 205, 216, 0.8156862745);
+  background-color: #c7cdd8;
   border-radius: 10px;
 }
 
@@ -63,15 +63,15 @@ nav {
 .card {
   border: 2px solid white;
   padding: 10px;
-  background-color: rgba(199, 205, 216, 0.8156862745);
+  background-color: #c7cdd8;
 }
 .card__title {
-  font-weight: 900;
   font-size: 2.2rem;
+  font-weight: 900;
 }
-.card__ {
-  font-weight: 400;
+.card__text {
   font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .contenedor__titulo {
@@ -80,8 +80,8 @@ nav {
 }
 
 .nosotros__titulo {
-  font-weight: bold;
   font-size: 2rem;
+  font-weight: bold;
   color: black;
 }
 .nosotros__text {
@@ -95,14 +95,17 @@ nav {
   color: black;
 }
 .equipo__nombre {
+  font-size: 2.2rem;
   font-weight: 900;
   color: black;
 }
 .equipo__puesto {
+  font-size: 1.8rem;
   font-weight: 600;
   color: #2b2d42;
 }
 .equipo__info {
+  font-size: 1.2rem;
   font-weight: 400;
   color: black;
 }
@@ -128,27 +131,30 @@ nav {
   box-shadow: none;
 }
 
-.boton__index input {
-  width: max-content;
-  height: 60px;
+.boton__form, .boton__index {
+  width: 40%;
+  height: 10%;
   border-radius: 10px;
   padding: 10px;
+  border: none;
+}
+
+.boton__index {
+  background-color: #c7cdd8;
   color: black;
-  background-color: rgba(199, 205, 216, 0.8156862745);
+}
+.boton__index:hover {
+  background-color: rgb(141, 129, 129);
+  color: black;
 }
 
 .boton__form {
-  width: 40%;
-  height: 10% px;
-  border-radius: 10px;
-  padding: 10px;
   color: black;
-  background-color: rgba(199, 205, 216, 0.8156862745);
-  border: none;
+  background-color: #c7cdd8;
 }
 .boton__form:hover {
-  background-color: rgba(199, 205, 216, 0.8156862745);
-  color: black;
+  background-color: #c7cdd8;
+  color: rgb(228, 98, 51);
 }
 
 .carrusel__contenedor {
@@ -156,8 +162,8 @@ nav {
   margin: 0 auto;
 }
 .carrusel__text {
-  font-weight: 900;
   font-size: 2rem;
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=style.css.map */

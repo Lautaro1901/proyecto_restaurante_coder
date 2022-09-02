@@ -1,12 +1,10 @@
 .nosotros{
     &__titulo{
-        font-weight: bold;
-        font-size: 2rem;
+        @include texto(2rem,bold);
         color: map-get($colores,"color-secundario");
     }
     &__text{
-        font-size: 1.2rem;
-        font-weight: 400;
+        @include texto(1.2rem,400);
         color: map-get($colores,"color-secundario");
     }
 }

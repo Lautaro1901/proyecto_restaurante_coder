@@ -1,25 +1,27 @@
-.boton__index{
-    & input{
-        width: max-content;
-        height: 60px;
-        border-radius: 10px;
-        padding: 10px;
-        color: map-get($colores, "color-secundario");
-        background-color: map-get($colores, "color-card-hero");
-    }
-}
-
-.boton__form{
+%boton__base{
     width: 40%;
-    height: 10%px;
+    height: 10%;
     border-radius: 10px;
     padding: 10px;
-    color: map-get($colores, "color-secundario");
-    background-color: map-get($colores, "color-card-hero");
     border: none;
-    &:hover{
-        background-color: map-get($colores, "color-card-hero");
-        color: map-get($colores, "color-secundario");
-    }
 }
 
+.boton__index{
+    @extend %boton__base;
+        background-color: map-get($colores, "color-card-hero");
+        color: map-get($colores, "color-secundario");
+        &:hover{
+            background-color: map-get($colores, "color-boton");
+            color: map-get($colores, "color-secundario");
+        }
+    }
+
+.boton__form{
+    @extend %boton__base;
+    color: map-get($colores, "color-secundario");
+    background-color: map-get($colores, "color-card-hero");
+    &:hover{
+        background-color: map-get($colores, "color-card-hero");
+        color: map-get($colores, "color-titulos");
+    }
+}
