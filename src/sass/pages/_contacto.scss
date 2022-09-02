@@ -1,16 +1,16 @@
 .contacto{
     &__titulo{
-        color: $color-secundario;
+        color: map-get($colores, "color-secundario" );
     }
     &__subtitulo{
-        color: $color-footer;
+        color: map-get($colores,"color-footer");
     }
     &__text{
-        color: $color-secundario;
+        color: map-get($colores, "color-secundario");
     }
     &__icono{
         font-size: 20px;
-        color: $color-secundario;
+        color: map-get($colores, "color-secundario");
     }
     &__lista{
         gap: 30px;

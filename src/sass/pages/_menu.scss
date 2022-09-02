@@ -1,6 +1,6 @@
 .contenedor{
     &__titulo{
-        color: $color-titulos;
+        color: map-get($colores,"color-titulos");
         margin: 10px;
     }
 }

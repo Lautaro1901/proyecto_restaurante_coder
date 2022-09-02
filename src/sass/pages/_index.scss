@@ -1,7 +1,7 @@
 .card{
     border: 2px solid white;
     padding: 10px;
-    background-color: $color-card-hero;
+    background-color: map-get($colores,"color-card-hero");
     &__title{
         font-weight: 900;
         font-size: 2.2rem;

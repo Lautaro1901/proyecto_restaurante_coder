@@ -11,6 +11,6 @@
 }
 
 .text-light{
-    background-color: $color-card-hero;
+    background-color: map-get($colores, "color-card-hero");
     border-radius: 10px;
 }

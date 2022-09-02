@@ -1,9 +1,9 @@
 .nav-link{
     font-size: 1rem;
     font-weight: 400;
-    color: $color-terciario;
+    color: map-get($colores, "color-terciario");
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: $color-secundario;
+    color: map-get($colores, "color-secundario");
 }

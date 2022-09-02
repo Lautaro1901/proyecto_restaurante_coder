@@ -4,8 +4,8 @@
         height: 60px;
         border-radius: 10px;
         padding: 10px;
-        color: $color-secundario;
-        background-color: $color-card-hero;
+        color: map-get($colores, "color-secundario");
+        background-color: map-get($colores, "color-card-hero");
     }
 }
 
@@ -14,12 +14,12 @@
     height: 10%px;
     border-radius: 10px;
     padding: 10px;
-    color: $color-secundario;
-    background-color: $color-card-hero;
+    color: map-get($colores, "color-secundario");
+    background-color: map-get($colores, "color-card-hero");
     border: none;
     &:hover{
-        background-color: $color-card-hero;
-        color: $color-secundario;
+        background-color: map-get($colores, "color-card-hero");
+        color: map-get($colores, "color-secundario");
     }
 }
 

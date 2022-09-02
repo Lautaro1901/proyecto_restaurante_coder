@@ -1,13 +1,13 @@
 .footer{
     &__color{
-        background-color: $color-footer;
+        background-color: map-get($colores, "color-footer" );
     }
     &__logo{
         height: 80px;
     }
     &__icon{
         font-size: 24px;
-        color: $color-terciario;
+        color: map-get($colores, "color-terciario" );
     }
 }
 
