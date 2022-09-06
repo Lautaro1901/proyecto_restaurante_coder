@@ -14,5 +14,6 @@
     &__info{
         @include texto(1.2rem,400);
         color: map-get($colores, "color-secundario");
+        list-style: disc;
     }
 } 
